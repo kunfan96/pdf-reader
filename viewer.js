@@ -46,7 +46,7 @@ if (!pdfjsLib.getDocument || !pdfjsViewer.PDFViewer) {
 
 var USE_ONLY_CSS_ZOOM = true;
 var TEXT_LAYER_MODE = 0; // DISABLE
-var MAX_IMAGE_SIZE = 1024 * 1024;
+var MAX_IMAGE_SIZE = 1024 * 1024 * 1000;
 var CMAP_URL = "pdfjs-dist/cmaps/";
 var CMAP_PACKED = true;
 
